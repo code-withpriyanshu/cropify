@@ -1,0 +1,52 @@
+/* Style for navbar */
+.navbar {
+    background-color: #f8f9fa; /* Background color */
+    padding: 10px 16px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+  }
+  /* Style for navbar brand */
+  .navbar-brand {
+    font-weight: bold; /* Bold font */
+  }
+  
+  /* Style for navbar links */
+  .navbar-nav .nav-link {
+    color: #007bff; /* Link color */
+    margin-right: 10px; /* Spacing between links */
+  }
+  
+  /* Style for active link */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #000; /* Active link color */
+  }
+  
+  /* Style for dropdown menu */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Background color */
+  }
+  
+  /* Style for dropdown items */
+  .dropdown-item {
+    color: #007bff; /* Text color */
+  }
+  
+  /* Style for disabled link */
+  .navbar-nav .nav-link.disabled {
+    color: #6c757d; /* Disabled link color */
+  }
+  
+  /* Style for search input */
+  .form-control {
+    margin-right: 10px; /* Spacing between input and button */
+  }
+  
+  /* Style for search button */
+  .btn-outline-success {
+    color: #28a745; /* Button text color */
+    border-color: #28a745; /* Button border color */
+  }
+  
